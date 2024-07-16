@@ -1,0 +1,48 @@
+Framework Used:
+	-	JUCE Framework
+
+
+Sources:
+	-	freeCodeCamp.org
+
+
+========================================================================================
+NOTES ON WHAT I WORKED ON:
+
+Functionality:
+	-	Created slider nodes for 5 filters on the EQ
+	-	Added juce::dsp
+	-	Linked nodes to audio channels in the process block
+		-	Had a few issues testing the build after this but was able to
+			work it out.
+	-	Created first version of the EQ
+		-	Problems:
+			-	FL Studio was not able to recognize it
+		-	Solution:
+			-	Run projucer in static runtime to keep the libraries from
+				being needed on other devices
+	-	Connected the LowCut params
+	-	REFACTORED both high cut and low cut params with helper funtions
+	-	Finished all other refactoring for functionality
+	-	Refactored peak filter generation
+	-	Refactored how cut filters are generated
+
+GUI:
+	-	Created and spaced out all sliders in the GUI
+	-	Connected sliders to params
+	-	Gave editor its own mono chain
+	-	GUI sliders listen to param changes
+	-	Fixed attacthment bug with low and high cut sliders
+	-	Refactored the response curve to fit in response area only
+	-	Implemented skeleton for custom slider visuals
+	-	Added the first basic slider visuals
+	-	Sliders are now circles visually
+	-	Displaying basic param values
+	-	Implemented displaying the param value with suffix, i.e. "Hz", "dB", "dB/Oct"
+	-	Started displaying min and max values for params
+	-	Fixed response curve bug when opening GUI
+	-	Added gird lines into GUI + rerendered grid into Background Image
+	-	Added frequency labels
+	-	Added gain labels to grid
+	-	Added analyser decibel marks
+
