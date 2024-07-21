@@ -1,0 +1,28 @@
+.root{
+	-fx-font-size: 14pt;
+	-fx-background-color: green;
+}
+.white-border{
+	-fx-border-color: white;
+	-fx-border-width: 2px;
+	-fx-border-radius:60;
+}
+.black-border{
+	-fx-border-color: black;
+	-fx-border-width: 5px;
+}
+.title-border{
+	-fx-border-radius: 10;
+	-fx-border-width: 0 0 2px 0;
+	-fx-border-insets: 7px;
+	-fx-border-color: white;
+}
+.label{
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+.button{
+	-fx-background-color: gold;
+	-fx-text-fill: black;
+	-fx-background-radius: 8;
+}
